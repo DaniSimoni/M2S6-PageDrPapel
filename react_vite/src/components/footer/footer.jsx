@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
         </section>
         </div>
-        <p className="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados. Poucos, mas alguns...</p>
+        <p className="footer-copy font-2-m cor-6">Estúdio Dr Papel © Alguns direitos reservados. </p>
     </div>
 </footer>
 
