@@ -1,8 +1,14 @@
+.container-main {
+    justify-content: space-around !important;
+
+}
+
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: auto;
     perspective: 1000%;
+
 }
 
 .flip-card-inner {
@@ -18,7 +24,7 @@
 }
 
 .flip-card-front, .flip-card-back {
-    position: absolute;
+        position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
@@ -30,7 +36,7 @@
 }
 
 section.kits {
-    margin-bottom: 50vh !important;
+    margin-bottom: 30vh !important;
     margin-top: 5vh;
 
 }
@@ -39,9 +45,63 @@ h1 {
     display: flex !important;
     justify-content: center;
 
+
 }
 
 h3 {
     display: flex !important;
     justify-content: left !important;
+}
+
+div.menu-produto {
+
+/*     justify-content: column; */
+}
+
+.produtos-img {
+    width: 10vw !important;
+    border-radius: 15px !important;
+    position: relative !important;
+}
+
+label.label-produto {
+    position: absolute !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    width: 10vw !important;
+}
+
+.icones-produtos {
+    display: flex !important;
+    justify-content: space-around !important;
+    margin: 0;
+}
+
+.container-produtos {
+    margin-top: 3vw !important;
+    padding: 5vw !important;
+    
+    background-image: url('./src/images/background/bg-1.png') !important;
+
+}
+
+.kits {
+    background-color: #faf480;
+}
+
+h1.kits-ttl {
+    margin-top: 3vw !important;
+    margin-bottom: 2vw !important;
+    padding-top: 2vw !important;
+}
+
+button {
+    border: none;   
+    background-color: transparent;
+}
+
+button:hover {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    transform: scale(1.25);
 }
