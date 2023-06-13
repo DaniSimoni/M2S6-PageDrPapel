@@ -14,7 +14,7 @@ const Header = () => {
     
     
             <div class="navbar row " id="navbarSupportedContent">
-                        <ul class="navbar-nav justify-content-end" >
+                        <ul class="navbar-nav justify-content-center" >
                             <li class="nav-item col-5">
                                 <a class="nav-link" aria-current="page" href="#">Sobre</a>
                             </li>

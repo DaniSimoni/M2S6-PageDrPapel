@@ -40,10 +40,13 @@ ul.font-2-m.cor-5.contatos {
     justify-content: flex-column !important;
     list-style-type: none;  
     width: 100vw !important;
+    padding: 0 0 3vw 0 !important;
 }
 
 li {
     align-items: left;
+    font-size: 1.5vw;
+
 }
 
 .a-footer {
@@ -55,7 +58,7 @@ img.logo-footer {
     padding: 0 !important;
     box-sizing: border-box !important;
     outline:none !important;
-    width: 50px;
+    width: 3vw !important;
 }
 
 .redes {
@@ -66,9 +69,11 @@ img.logo-footer {
 
 .footer-redes {
     display: flex;
-    justify-content: space-between;
-    width: 10vw;
+    justify-content: space-around !important;
+    width: 30vw;
+
 }
+
 
 .footer-titulo {
     display: flex;
@@ -81,10 +86,20 @@ img.logo-footer {
 }
 
 .contato {
-    margin-top: 25px;
+    margin-top: 3.259452411994785vh;
+    font-size: 1.5vw !important;
 }
 
 .footer-contato1 {
     display: flex !important;
     justify-content: center;
+}
+
+.footer-contato2 {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.footer-copy {
+    font-size: 0.7vw !important;
 }

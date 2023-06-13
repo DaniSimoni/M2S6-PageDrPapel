@@ -36,12 +36,23 @@ nav.navbar {
     --bs-navbar-padding-y: 0 !important;
     margin-right: 0% !important;
     width: 100vw !important;
-    background: linear-gradient(135deg, LavenderBlush 50%, LightCyan);
+    background: linear-gradient(135deg, LavenderBlush 50%, LightCyan) !important;
 
 }
 
+
+
 .navbar {
-    width: 20vw !important;
+    display: flexbox !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    --bs-navbar-padding-y: 0 !important;
+    margin: 0 auto 0 auto !important;
+    width: 30vw !important;
+    background: transparent !important;
+
+    
 }
 
 
@@ -56,12 +67,17 @@ nav.navbar {
 
 ul {
     display: flex !important;
+    justify-content: row !important;
+    flex-direction: row !important
 }
 
 
 
 li.nav-item {
-    font-size: 115%;
+    display: flex !important;
+    justify-content: space-around !important;
+    font-size: 1.2vw;
+
     padding: 0 !important;
     margin: 0 !important;
     --bs-navbar-padding-y: 0 !important;
@@ -97,3 +113,9 @@ div.collapse.navbar-collapse {
 
 
 
+@media screen and (max-width:576px) {
+
+
+
+
+}

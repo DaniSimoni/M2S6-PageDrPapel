@@ -5,7 +5,7 @@
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 39.11342894393742vh;
     height: auto;
     perspective: 1000%;
     
@@ -40,7 +40,7 @@
 }
 
 section.kits {
-    margin-bottom: 30vh !important;
+    margin-bottom: 25vw !important;
     margin-top: 5vh;
 
 }
@@ -64,18 +64,19 @@ div.menu-produto {
 
 .produtos-img {
     width: 10vw !important;
-    border-radius: 15px !important;
+    border-radius: 1.955671447196871vh !important;
     position: relative !important;
-    box-shadow: 4px 4px 8px #000 !important;
+    box-shadow: 0.52vw 0.52vw 1.04vw #000 !important;
 }
 
 label.label-produto {
     position: absolute !important;
     display: flex !important;
     justify-content: space-around !important;
-    width: 11vw !important;
+    width: 10vw !important;
+    font-size: 1.3vw !important;
     font-weight: bold !important;
-    padding-top: 5px !important;
+    padding-top: 0.65px !important;
 }
 
 .icones-produtos {
@@ -85,22 +86,27 @@ label.label-produto {
 }
 
 .container-produtos {
-    margin-top: 3vw !important;
+    display: flex !important;
+    margin: 2vw auto 3vw !important;
     padding: 5vw !important;
-    border-radius: 15px !important;
+    border-radius: 1.955671447196871vh !important;
     background-image: url('./src/images/background/bg-1.png') !important;
-    box-shadow: 4px 4px 8px #c1c1c1 !important;
+    box-shadow: 0.52px 0.52px 1.04px #c1c1c1 !important;
 }
+
+
+
 
 .kits {
     background-color: #faf480;
-        box-shadow: 4px 4px 8px #000 !important;
+    box-shadow: 4px 4px 8px #000 !important;
 }
 
 h1.kits-ttl {
     margin-top: 3vw !important;
     margin-bottom: 2vw !important;
     padding-top: 2vw !important;
+    font-size: 3vw !important;
 }
 
 button {
@@ -112,4 +118,60 @@ button:hover {
     transition: transform 0.6s;
     transform-style: preserve-3d;
     transform: scale(1.25);
+}
+
+
+@media screen and (max-width:768px) {
+
+    .container-produtos {
+        display: flex !important;
+        justify-content: column !important;
+        margin: 2vw auto 3vw !important;
+        padding: 1vw auto 5vw !important;
+        border-radius: 15px !important;
+        background-image: url('./src/images/background/bg-1.png') !important;
+        box-shadow: 2px 2px 4px #c1c1c1 !important;
+    }
+
+    .icones-produtos {
+        display: flex !important;
+        justify-content: space-around !important;
+        padding: 0.5vw auto 5vw auto !important;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .container-main {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: column !important;
+    
+    }
+
+    .container-produtos {
+        display: flex !important;
+        width: 90vw !important;
+        margin: 1vw auto 1.5vw !important;
+        padding: 0vw auto 6vw auto !important;
+        border-radius: 1vw !important;
+        background-image: url('./src/images/background/bg-1.png') !important;
+        box-shadow: 4px 4px 8px #c1c1c1 !important;
+
+    }
+
+
+    .flip-card {
+        display: flex !important;
+        justify-content: column !important;
+        background-color: transparent;
+        width: 300px;
+        height: auto;
+        perspective: 1000%;
+           
+    }
+
+
 }

@@ -25,7 +25,8 @@ const Footer = () => {
             </ul>
         </section>
         <div className='redes'>
-        <section className="footer-contato ">
+
+        <section className="footer-contato2 ">
 
             <div className="footer-redes">
 
