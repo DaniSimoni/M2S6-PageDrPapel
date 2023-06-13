@@ -8,6 +8,7 @@
     width: 300px;
     height: auto;
     perspective: 1000%;
+    
 
 }
 
@@ -17,10 +18,12 @@
     height: 100%;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    
 }
 
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    
 }
 
 .flip-card-front, .flip-card-back {
@@ -29,6 +32,7 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    
 }
 
 .flip-card-back {
@@ -62,13 +66,16 @@ div.menu-produto {
     width: 10vw !important;
     border-radius: 15px !important;
     position: relative !important;
+    box-shadow: 4px 4px 8px #000 !important;
 }
 
 label.label-produto {
     position: absolute !important;
     display: flex !important;
     justify-content: space-around !important;
-    width: 10vw !important;
+    width: 11vw !important;
+    font-weight: bold !important;
+    padding-top: 5px !important;
 }
 
 .icones-produtos {
@@ -80,13 +87,14 @@ label.label-produto {
 .container-produtos {
     margin-top: 3vw !important;
     padding: 5vw !important;
-    
+    border-radius: 15px !important;
     background-image: url('./src/images/background/bg-1.png') !important;
-
+    box-shadow: 4px 4px 8px #c1c1c1 !important;
 }
 
 .kits {
     background-color: #faf480;
+        box-shadow: 4px 4px 8px #000 !important;
 }
 
 h1.kits-ttl {

@@ -16,7 +16,7 @@ const Footer = () => {
 
         <section className="footer-contato1">
 
-            <ul className="font-2-m cor-5 contatos">
+            <ul className="font-2-m cor-5 contatos row">
                 <li className="li-footer"><a href="tel:+552199999999" class="a-footer">+55 48 98853-5179</a></li>
                 <section className="separador"></section>
                 <li className="a-footer">Servidão Reginaldo José Sagaz, 281 - Ingleses/4</li>

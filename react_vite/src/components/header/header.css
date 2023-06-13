@@ -3,70 +3,69 @@
     padding: 0;
     box-sizing: border-box;
     outline:none !important;
-    /*     color: #fff !important; */
 }
 
 
 div.header.container {
-    margin-left: 0px; 
+    display: grid;
+     margin: 0px; 
+    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0rem !important;
 }
 
 
-
-div.container-fluid.container-header {
-
-}
-
-section.logo-txt {
-    display: flex;
+.logo {
+    display: flexbox !important;
     justify-content: center;
+    width: 10%;
+    margin: 1vw auto 1vw auto;
 
-    margin-right: 20vw;
-    margin-left: 15vw;
-    
 
-}
+}    
+
 img.logo-txt {
     display: flex;
-    width: 0.5vh !important;
+    max-width: 150px !important;
 }
 
-nav.navbar.navbar-expand-lg.bg-body-tertiary {
-    display: flex !important;
+nav.navbar {
+    display: flexbox !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
     justify-content: center !important;
     --bs-navbar-padding-y: 0 !important;
     margin-right: 0% !important;
     width: 100vw !important;
     background: linear-gradient(135deg, LavenderBlush 50%, LightCyan);
-}
-
-img {
-/*     display: flex !important; */
-    margin-left: 25% !important;
 
 }
+
+.navbar {
+    width: 20vw !important;
+}
+
 
 .img-thumbnail{
     display: flex !important;
     margin: 0 !important;
     padding: 0 !important;
   /*   width: 180vh !important; */
+  
 
 }
 
-.navbar-brand {
-    margin-right:  !important;
-    width: 400px !important;
-    /*  color: #fff !important; */
+ul {
+    display: flex !important;
 }
 
-a.nav-link {
-   /*  color: #fff !important; */
-}
+
 
 li.nav-item {
-    margin-right: 20px !important;
-
+    font-size: 115%;
+    padding: 0 !important;
+    margin: 0 !important;
+    --bs-navbar-padding-y: 0 !important;
+    --bs-navbar-padding-x: 0 !important;
 
 }
 
@@ -82,8 +81,19 @@ li.nav-item {
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     --bs-gutter-x: 0rem !important;
+        --bs-gutter-y: 0rem !important;
 }
 
 div.collapse.navbar-collapse {
-    margin-left: 5vw;
+    margin-left: 0vw;
 }
+
+
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+
+
