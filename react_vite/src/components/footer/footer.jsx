@@ -10,14 +10,14 @@ const Footer = () => {
 
         <section className="footer-titulo col-4">
 
-            <h3 className="font-2-l-b cor-0 contato">CONTATO</h3>
+            <h3 className="font-2-l-b cor-0 contato ">CONTATO</h3>
             <img src="./src/images/bird.png" alt="DrPapel" className='logo-footer'/>
         </section>
 
         <section className="footer-contato1">
 
             <ul className="font-2-m cor-5 contatos row">
-                <li className="li-footer"><a href="tel:+552199999999" class="a-footer">+55 48 98853-5179</a></li>
+                <li className="li-footer"><a href="tel:+552199999999" class="a-footer col-1">+55 48 98853-5179</a></li>
                 <section className="separador"></section>
                 <li className="a-footer">Servidão Reginaldo José Sagaz, 281 - Ingleses/4</li>
                 <li className="li-footer a-footer">Florianópolis-SC</li>

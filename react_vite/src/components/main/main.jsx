@@ -46,9 +46,8 @@ const Main = () => {
         
         <div className='container container-main '>
 
-    
-            
-            <div className='flip-card'>
+            <section  className='container-fluid row col-sm-3 container-card'>
+            <div className='flip-card d-sm-inline-flex '>
             <div className='flip-card-inner'>
                 <div className='flip-card-front'>
                 <img src="./src/images/2.jpg" className="img-thumbnail" alt="..."></img>
@@ -59,7 +58,9 @@ const Main = () => {
                 </div>
             </div>
             </div>
+            </section>
 
+            <section  className='container-fluid row col-sm-3 container-card'>
             <div className='flip-card'>
             <div className='flip-card-inner'>
                 <div className='flip-card-front'>
@@ -71,7 +72,9 @@ const Main = () => {
                 </div>
             </div>
             </div>
+            </section>
 
+            <section  className='container-fluid row col-sm-3 container-card'>    
             <div className='flip-card'>
             <div className='flip-card-inner'>
                 <div className='flip-card-front'>
@@ -83,7 +86,7 @@ const Main = () => {
                 </div>
             </div>
             </div>
-
+            </section>
             
 
         </div>

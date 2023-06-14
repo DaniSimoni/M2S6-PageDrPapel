@@ -40,7 +40,9 @@ ul.font-2-m.cor-5.contatos {
     justify-content: flex-column !important;
     list-style-type: none;  
     width: 100vw !important;
-    padding: 0 0 3vw 0 !important;
+    padding: 0 0 1vw 0 !important;
+    margin-top: 0 !important;
+
 }
 
 li {
@@ -54,30 +56,33 @@ li {
 }
 
 img.logo-footer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     margin: 0 !important;
     padding: 0 !important;
-    box-sizing: border-box !important;
-    outline:none !important;
-    width: 3vw !important;
+    width: 4vw !important;
+    height: 0% !important;
+
 }
 
 .redes {
     display: flex !important;   
     justify-content: center;
-    margin-bottom: 5vw !important;
+    margin-bottom: 2vw !important;
 }
 
 .footer-redes {
     display: flex;
     justify-content: space-around !important;
-    width: 30vw;
+    width: 20vw !important;
 
 }
 
 
 .footer-titulo {
     display: flex;
-    margin-bottom: 3vh;
+    margin-bottom: 1.5vh;
     padding: 0;
     box-sizing: border-box;
     outline:none !important;
@@ -86,8 +91,9 @@ img.logo-footer {
 }
 
 .contato {
-    margin-top: 3.259452411994785vh;
+    margin-top: 1vh;
     font-size: 1.5vw !important;
+
 }
 
 .footer-contato1 {
@@ -103,3 +109,4 @@ img.logo-footer {
 .footer-copy {
     font-size: 0.7vw !important;
 }
+
