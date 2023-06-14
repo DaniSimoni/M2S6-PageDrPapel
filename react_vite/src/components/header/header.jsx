@@ -7,7 +7,7 @@ const Header = () => {
         <div class="header container">
                
                    
-                <img class="logo justify-content-center " src="./src/images/Logook.png" alt="DrPapel-logo" />
+                <img class="logo justify-content-center " src="./src/assets/images/Logook.png" alt="DrPapel-logo" />
                 
 
             <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">

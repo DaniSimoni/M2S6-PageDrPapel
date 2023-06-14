@@ -11,7 +11,7 @@ const Footer = () => {
         <section className="footer-titulo col-4">
 
             <h3 className="font-2-l-b cor-0 contato ">CONTATO</h3>
-            <img src="./src/images/bird.png" alt="DrPapel" className='logo-footer'/>
+            <img src="./src/assets/images/bird.png" alt="DrPapel" className='logo-footer'/>
         </section>
 
         <section className="footer-contato1">

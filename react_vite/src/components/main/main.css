@@ -85,7 +85,7 @@ label.label-produto {
     margin: 2vw auto 3vw !important;
     padding: 5vw !important;
     border-radius: 1.955671447196871vh !important;
-    background-image: url('./src/images/background/bg-1.png') !important;
+    background-image: url('./src/assets/images/background/bg-1.png') !important;
     box-shadow: 0.52px 0.52px 1.04px #c1c1c1 !important;
 }
 
@@ -124,7 +124,7 @@ button:hover {
         margin: 2vw auto 3vw !important;
         padding: 1vw auto 5vw !important;
         border-radius: 15px !important;
-        background-image: url('./src/images/background/bg-1.png') !important;
+        background-image: url('./src/assets/images/background/bg-1.png') !important;
         box-shadow: 2px 2px 4px #c1c1c1 !important;
     }
 
@@ -152,7 +152,7 @@ button:hover {
         margin: 1vw auto 1.5vw !important;
         padding: 0vw auto 6vw auto !important;
         border-radius: 1vw !important;
-        background-image: url('./src/images/background/bg-1.png') !important;
+        background-image: url('./src/assets/images/background/bg-1.png') !important;
         box-shadow: 4px 4px 8px #c1c1c1 !important;
 
     }
